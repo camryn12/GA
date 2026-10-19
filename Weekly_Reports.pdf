@@ -635,6 +635,16 @@
       ]
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "To PDF"
+      ],
+      "metadata": {
+        "id": "OOrZePeVb5Pn"
+      },
+      "id": "OOrZePeVb5Pn"
+    },
+    {
       "cell_type": "code",
       "metadata": {
         "id": "eef0bef0"
@@ -654,7 +664,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "7323b60f",
-        "outputId": "1a95c3a7-f29c-4385-b09c-493edc3ae61d"
+        "outputId": "407317d7-d799-4be0-f5b0-86c87716a18c"
       },
       "source": [
         "import os\n",
@@ -796,7 +806,7 @@
         "print(f\"Successfully generated highly formatted PDF report at: {pdf_path}\")"
       ],
       "id": "7323b60f",
-      "execution_count": null,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "stream",
@@ -806,6 +816,16 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "To .CSV"
+      ],
+      "metadata": {
+        "id": "FHa6kwEdb04X"
+      },
+      "id": "FHa6kwEdb04X"
     },
     {
       "cell_type": "code",
